@@ -7,7 +7,6 @@ class Pizza:
         self.__toppings = toppings
         self.__DOUGH_PRICE = Price(5, 30)
 
-
     def __str__(self):
         topps = ""
         for t in self.__toppings:
