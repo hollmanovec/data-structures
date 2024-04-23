@@ -1,0 +1,22 @@
+Pizza app
+
+Co umí hlavní menu?
+--> zadat novou objednávku
+--> zjistit stav objednávky (je, není první)
+--> vybavit objednávku
+
+
+Co bude aplikace potřebovat?
+--> class Pizza, class Topping
+--> class Price
+--> class Order
+--> class Queue
+
+--> vytisknout menu - print_main_menu(f)
+--> vytisknout položky k objednání - print_pizza_menu()
+--> vytisknout objednávkový formulář
+
+
+--> zjistit stav objednávky, check_order_status()
+
+--> odbavení objdnávky - delete_finished_order()
