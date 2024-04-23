@@ -1,4 +1,5 @@
 class Price:
+    # nadefinovat metody pro matematiku
     def __init__(self, integer, decimal):
         self.__integer = integer
         self.__decimal = decimal

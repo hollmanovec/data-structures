@@ -4,7 +4,7 @@ class Topping:
         self.__price = price
 
     def __str__(self):
-        return f"{self.__name}, cena {self.__price}Kč za jednotku"
+        return f"{self.__name}, cena {self.__price}USD za jednotku"
 
     def get_name(self):
         return self.__name
