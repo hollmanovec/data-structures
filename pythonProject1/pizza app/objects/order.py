@@ -1,17 +1,17 @@
 class Order:
-    def __init__(self, address, meal, number):
+    def __init__(self, address, meal):
         #adresa může být samostatný objekt
         self.__address = address
         self.__meal = meal
-        self.__number = number
-
+        #self.__number = number
+        # TODO přidat číslo objednávky
     def __str__(self):
         items = ""
         for m in self.__meal:
             items += f"  {m.self.get_name}           {m.self.get_price}USD"
         return f"""
 ************************************
-        Order #{self.__number}
+        Order #
 ------------------------------------
 {items}
 ------------------------------------

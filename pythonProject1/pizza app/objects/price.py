@@ -9,3 +9,10 @@ class Price:
 
     def get_price(self):
         return self.__integer + self.__decimal / 100
+
+    # TODO to_dict
+    def to_dict(self):
+        return {
+            "integer": self.__integer,
+            "decimal": self.__decimal
+        }

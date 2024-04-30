@@ -1,4 +1,5 @@
 from .price import Price
+from .topping import Topping
 class Pizza:
     def __init__(self, name, toppings):
         #přidat druh těsta, základu
@@ -21,6 +22,14 @@ toppingy: {topps}
     def get_name(self):
         return self.__name
 
+    def get_toppings(self):
+        topps = ""
+        for t in self.__toppings:
+            topps += t.get_name() + ","
+            # odstranit poslední čárku
+        return topps
+
+
     def get_price(self):
         result = self.__DOUGH_PRICE.get_price()
         for t in self.__toppings:
@@ -28,5 +37,10 @@ toppingy: {topps}
 
         return result
 
+    def to_dict(self):
+        return {
+            "name": self.__name,
+            "toppings": [t.to_dict() for t in self.__toppings]
+        }
 
 

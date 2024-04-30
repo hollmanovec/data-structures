@@ -12,4 +12,12 @@ class Topping:
     def get_price(self):
         return self.__price
 
+    def get_string_price(self):
+        return str(self.__price)
+
     # přidat možnost zdražení
+    def to_dict(self):
+        return {
+            "name": self.__name,
+            "price": self.__price.to_dict()
+        }

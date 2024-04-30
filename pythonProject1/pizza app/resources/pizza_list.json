@@ -1,0 +1,9 @@
+{"name": "Margharitta", "toppings": [{"name": "Cheese", "price": {"integer": 1, "decimal": 50}},
+  {"name": "Ham", "price": {"integer": 1, "decimal": 80}},
+  {"name": "Tomat Sause", "price": {"integer": 1, "decimal": 0}}],
+  "name": "Americana", "toppings": [{"name": "Cheese", "price": {"integer": 1, "decimal": 50}},
+  {"name": "Ham", "price": {"integer": 1, "decimal": 80}},
+  {"name": "Tomat Sause", "price": {"integer": 0, "decimal": 80}},
+  {"name": "Chicken", "price": {"integer": 2, "decimal": 0}},
+  {"name": "Corn", "price": {"integer": 1, "decimal": 0}}]}
+
